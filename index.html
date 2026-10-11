@@ -1,7 +1,18 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f5f0"><meta name="description" content="A calm, practical space to learn languages through real conversations."><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg"><link rel="stylesheet" href="./src/styles.css"><title>Langora · Learn through life</title></head>
-<body><div class="app-shell">
-<aside class="sidebar"><a class="brand" href="#" aria-label="Langora home"><span class="brand-mark">l</span><span>langora</span></a><div class="side-label">YOUR SPACE</div><nav class="side-nav" aria-label="Main navigation"><button class="nav-item active" data-view="home"><span>⌂</span> Overview</button><button class="nav-item" data-view="academy"><span>▤</span> Academy</button><button class="nav-item" data-view="situations"><span>☷</span> Situations</button><button class="nav-item" data-view="listening"><span>♫</span> Listening lab</button><button class="nav-item" data-view="vocabulary"><span>✳</span> Vocabulary <span class="nav-count" id="saved-count">0</span></button><button class="nav-item" data-view="conversation"><span>◌</span> Conversation</button></nav><div class="sidebar-bottom"><div class="offline-pill"><span class="status-dot"></span><span id="connection-label">Ready to learn offline</span></div><button class="nav-item" data-view="settings"><span>⚙</span> Settings</button><div class="profile"><div class="avatar">Y</div><div><strong>Your learning space</strong><small>Progress stays on this device</small></div></div></div></aside>
-<main class="main"><header class="topbar"><button class="mobile-brand" data-view="home">langora</button><div class="breadcrumbs">Your space <span>/</span> <strong id="crumb">Overview</strong></div><div class="top-actions"><button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">☾</button><button class="avatar small" aria-label="Settings" data-view="settings">Y</button></div></header>
-<section class="content" id="content" aria-live="polite"></section>
-</main></div><nav class="mobile-nav" aria-label="Mobile navigation"><button data-view="home" class="active">⌂<small>Home</small></button><button data-view="academy">▤<small>Academy</small></button><button data-view="situations">☷<small>Situations</small></button><button data-view="vocabulary">✳<small>Words</small></button><button data-view="settings">⚙<small>More</small></button></nav><script type="module" src="./src/app.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6fb">
+  <meta name="description" content="Learn useful languages with real conversations, lessons, and practice that works offline.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/refinements.css">
+  <title>Langora - Learn a little, every day</title>
+</head>
+<body>
+  <div id="app" class="boot"><span class="brand-mark">L</span><p>Langora</p></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
